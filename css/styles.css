@@ -1,0 +1,217 @@
+/* || General Styles */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+footer {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+H1 {
+  color: #71c9ce;
+  margin: 50px 0 auto 0;
+  font-size: 5.625rem;
+  font-family: 'Crimson Text', serif;
+}
+
+h2 {
+  color: #71c9ce;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 30px auto;
+}
+
+h3 {
+  color: #71c9ce;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px auto 15px;
+}
+
+hr {
+  border: 6px dotted black;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+  background-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  size: 100%;
+}
+
+input {
+  margin-bottom: 5px;
+}
+
+nav {
+  /* background-color: #e3fdfd; */
+  background: transparent;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+
+/* Contact form */
+
+.contact-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 40%;
+  background-size: auto;
+  background-repeat: repeat;
+  text-align: left;
+  display: inline-block;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* || Classes */
+
+.btn {
+  position: relative;
+}
+
+.colored-section {
+  padding: 0 0 15px 0;
+  /* background-image: url("../images/background.png"); */
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-repeat: repeat-x;
+  position: relative;
+  top: 0;
+}
+
+.container {
+  background-color: white;
+}
+
+.contact-info {
+  color: black;
+  line-height: 1;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.contact-me {
+  text-align: center;
+  margin-left: 30px;
+  vertical-align: left;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  line-height: 1;
+  margin: 0 auto 0.5rem;
+}
+
+.copyright-link {
+  padding: 20px 0;
+}
+
+.footer {
+  font-size: 0.75rem;
+  line-height: normal;
+  margin: auto auto 8px;
+}
+
+.footer-link {
+  margin: 2rem auto;
+}
+
+.middle-container {
+  margin: 150px 0;
+  /* position: relative; */
+}
+
+.nav-link {
+  font: black;
+}
+
+.navbar {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile {
+  text-align: left;
+  margin: auto;
+  width: 50%;
+}
+
+.profile-image {
+  margin-right: 100px;
+}
+
+.top-container {
+  padding: 10% 15%;
+}
+
+.white-section {
+  margin: 150px auto;
+}
+
+/* IDs */
+#feature {
+  position: relative;
+}
+
+#myImage {
+  height: auto;
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+#skill-title {
+  padding-bottom: 50px;
+}
